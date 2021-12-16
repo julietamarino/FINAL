@@ -1,0 +1,846 @@
+* {margin:0; padding:0;}
+
+/* ESTILOS GENERALES */
+
+.fondo {
+    background-color: rgba(36, 33, 41, 0.836);
+}
+
+nav {
+    margin-top: -20px;
+}
+
+.nav-item {
+    font-family: "Roboto Condensed";
+    font-weight: bold;
+    margin-top: -100px;
+    font-size: 20px; 
+    color:black;
+}
+
+.nav-link:link {
+    color: black;
+    text-decoration: none;
+}
+
+.nav-link:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+header {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 95px;
+    background-color: rgba(255, 255, 255, 0.726);
+} 
+
+
+#img { /* LOGO */
+    margin-top: -53px;
+    margin-left: 40px;
+}
+
+
+/* ------------------------- INICIO --------------------------- */
+
+.comida {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.textoComida {
+    color: white;
+    font-family: "Roboto Condensed";
+    font-size: x-large;
+    text-align: center;
+    justify-content: center;
+    line-height: 40px;
+    margin-top: -30px;
+}
+
+.niños {
+    margin-top: 30px;
+    margin-left: 55%;
+}
+
+.textoNiños {
+    color: white;
+    font-family: "Roboto Condensed";
+    font-size: x-large;
+    text-align: center;
+    justify-content: center;
+    line-height: 40px;
+    margin-top: -40px;
+    margin-left: 25px;
+}
+
+.relax {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.textoRelax {
+    color: white;
+    font-family: "Roboto Condensed";
+    font-size: x-large;
+    text-align: center;
+    justify-content: center;
+    line-height: 40px;
+    margin-top: -40px;
+    margin-left: 35px;
+}
+
+.fondoImg1 { /* FONDO IMAGENES COMIDA Y RELAX */
+    background-color: #50ff4dce;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 5px;
+    width: 90%;
+    height: 400px;
+}
+
+.fondoImg2 { /* FONDO IMAGEN NIÑOS */
+    background-color: #50ff4dce;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 125px;
+    width: 90%;
+    height: 400px;
+}
+
+/* ------------------------- LINE UP --------------------------- */
+
+.dia1 {
+    margin-top: 30px;
+    font-family: "Roboto Condensed";
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+    justify-content: center;
+    color: black;
+}
+
+#explicito { /* CUADRO LINE UP */
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-bottom: 30px;
+    background-color: rgba(255, 255, 255, 0.822);
+    height: 60vh;
+    width: 90%;
+    font-family: "Roboto Condensed";
+    font-weight: bold;
+}
+
+.dia2 {
+    margin-top: 50px;
+    font-family: "Roboto Condensed";
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+    justify-content: center;
+    color: black;
+}
+
+#principales { /* LINE UP - ARTISTAS PRINCIPALES (grids) */
+    border: solid 5px #50ff4d;
+    text-align: center;
+    font-size: 50px;
+}
+
+#secundarios { /* LINE UP - ARTISTAS SECUNDARIOS (grids) */
+    border: solid 5px #50ff4d;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+/* ------------------------- ENTRADAS --------------------------- */
+
+.linkEntradas {
+    margin-top: 150px;
+    margin-left: 350px;
+    color: black;
+    font-family: "Roboto Condensed";
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.linkEntradas:hover {
+    color: white;
+}
+
+.tickets { /* TICKETS 2 DÍAS */
+    margin-top: 30px;
+    margin-left: 30px;
+    font-family: "Roboto Condensed";
+    font-weight: bold;
+    color: black;
+    font-size: large;
+}
+
+table { /* TABLA ENTRADAS DOS DÍAS*/
+    background-color: rgba(255, 255, 255, 0.822);
+    border: solid 4px #50ff4d;
+    margin-top: 15px;
+    margin-left: 30px;
+    width: 300px;
+    height: 200px;
+    font-family: "Roboto Condensed";
+    font-weight: bold;
+    font-size: x-large;
+}
+
+td { /* TEXTO DENTRO DE LAS TABLAS */
+    text-align: center;
+}
+
+.ticketsDia1 {
+    margin-top: -305px;
+    font-family: "Roboto Condensed";
+    font-weight: bold;
+    margin-left: 530px;
+    color: black;
+}
+
+.tablaDia1 {
+    background-color: rgba(255, 255, 255, 0.822);
+    border: solid 4px #50ff4d;
+    margin-top: 15px;
+    margin-left: 530px;
+    width: 300px;
+    height: 200px;
+    font-family: "Roboto Condensed";
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.ticketsDia2 {
+    margin-top: -305px;
+    margin-left: 1000px;
+    font-family: "Roboto Condensed";
+    font-weight: bold;
+    color: black;
+}
+
+.tablaDia2 {
+    background-color: rgba(255, 255, 255, 0.822);
+    border: solid 4px #50ff4d;
+    margin-top: 15px;
+    margin-left: 1000px;
+    width: 300px;
+    height: 200px;
+    font-family: "Roboto Condensed";
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.tiposTickets {
+    font-family: "Roboto Condensed";
+    font-weight: bold;
+    font-size: 19px;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height: 40px;
+    color: black;
+}
+
+#lista {
+    color: black;
+    font-weight: bold;
+    font-family: "Roboto Condensed";
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.list-group {
+    font-family: "Roboto Condensed";
+}
+
+.accordion-flush {
+    font-family: "Roboto Condensed";
+}
+
+#acordeon {
+    color: black;
+    font-weight: bold;
+    font-family: "Roboto Condensed";
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* ------------------------- MERCH --------------------------- */
+
+.tituloMerch {
+    font-family: "Roboto Condensed";
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 50px;
+    text-align: center;
+    color: black;
+}
+
+.subtituloMerch {
+    font-family: "Roboto Condensed";
+    font-weight: bold;
+    text-align: center;
+    color: rgb(32, 32, 32);
+    font-size: 20px;
+    margin-top: 12px;
+}
+
+.imagenesMerch {
+    margin: 5px;
+}
+
+#merch {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+/* ------------------------- CONTACTO --------------------------- */
+
+.contacto {
+    margin-left: 330px;
+    line-height: 30px;
+    background-color: #51FF4D;
+    color:black;
+    width: 700px;
+    height: 630px;
+    text-align: center;
+    padding: 20px;
+    font-family: "Roboto Condensed";
+    font-weight: bold;
+}
+
+#tituloContacto {
+    font-size: 25px;
+    font-family: "Roboto Condensed";
+    font-weight: bold;
+}
+
+#subtituloContacto {
+    font-size: 20px;
+    font-family: "Roboto Condensed";
+    font-weight: bold;
+}
+
+/* ------------------------- FOOTER --------------------------- */
+
+footer {
+    background-color: whitesmoke;
+    font-family: "Roboto Condensed";
+    font-weight: bold;
+    margin-top: 40px;
+    height: 260px;
+}
+.newsletter {
+    font-size: large;
+    margin-top: -180px;
+    text-align: center;
+}
+
+.texto-footer {
+    text-align: center;
+    color: black;
+    margin-top: 50px;
+}
+
+.btn-outline-dark {
+    margin-top: 5px;
+    margin-left: 200px;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.redes-sociales {
+    margin-top: -245px;
+    margin-left: 1000px;
+}
+
+.btn-outline-primary {
+    margin-top: 5px;
+    margin-left: 9px;
+}
+
+.btn-outline-info {
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.btn-outline-warning {
+    margin-top: 5px;
+}
+
+.btn-outline-danger {
+    margin-top: 5px;
+    margin-left: 30px;
+}
+
+/* Flexbox */
+
+.imagenes-flex { /* IMAGENES MERCH */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/* GRIDS */
+
+.grid-explicito { /*CUADRO LINE UP */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* columnas */
+    grid-template-rows: 2fr 2fr 1fr 1fr; /* filas */
+}
+
+/* TRANSFORMACIONES */
+
+.mover1 { /* párrafo comida y relax */
+    transform: translate(250px, -240px);
+}
+
+.mover2 { /* párrafo niños */
+    transform: translate(-270px, -270px);
+}
+
+
+/* MEDIA QUERIES*/
+/*MOBILE FIRST*/
+
+/* TABLET */
+@media (min-width: 600px) and (max-width: 1024px) {
+
+/* -------------------------- INICIO ------------------------- */
+
+#img {  /* logo */
+    width: 150px;
+    height: 150px;
+    margin-top: -35px;
+    margin-left: -30px;
+}  
+
+nav {
+    margin-left: 60px;
+}
+
+.nav-item {
+    font-family: "Roboto Condensed";
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: -65px;
+    margin-left: -10px;
+}
+
+
+.comida {
+    width: 250px;
+    height: 180px;
+    margin-top: 55px;
+    margin-left: 10px;
+}
+    
+.textoComida {    
+    color: white;
+    font-size: 15px;
+    line-height: 40px;
+    margin-top: 70px;
+    margin-left: -235px;
+}
+ 
+.niños {
+    margin-top: 50px;
+    margin-left: 20px;
+    width: 250px;
+    height: 180px;
+}
+    
+.textoNiños {
+    color: white;
+    font-size: 15px;
+    line-height: 40px;
+    margin-top: 60px;
+    margin-right: -780px;
+}
+    
+.relax {
+    width: 250px;
+    height: 180px;
+    margin-top: 55px;
+    margin-left: 10px;
+}
+    
+.textoRelax {
+    color: white;
+    font-size: 15px;
+    line-height: 40px;
+    margin-top: 50px;
+    margin-left: -235px;
+}
+    
+.fondoImg1 { /* FONDO IMAGENES COMIDA Y RELAX */
+    height: 300px;
+    width: 95%;
+}
+    
+.fondoImg2 { /* FONDO IMAGEN NIÑOS */
+    height: 300px;
+    margin-left: 5px;
+    width: 95%;
+}
+
+/* ------------------------- LINE UP --------------------------- */
+
+.dia1 {
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#explicito { /* CUADRO LINE UP */
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    height: 60vh;
+    width: 90%;
+}
+
+.dia2 {
+    margin-top: 50px;
+    font-size: 40px;
+}
+
+#principales { /* LINE UP - ARTISTAS PRINCIPALES (grids) */
+    border: solid 2px #50ff4d;
+    font-size: 35px;
+}
+
+#secundarios { /* LINE UP - ARTISTAS SECUNDARIOS (grids) */
+    border: solid 2px #50ff4d;
+    font-size: 18px;
+}
+
+/* ------------------------- ENTRADAS --------------------------- */
+
+.linkEntradas {
+    margin-top: 10px;
+    margin-left: 80px;
+    font-size: 25px;
+}
+
+.tickets { /* TICKETS 2 DÍAS */
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+table { /* TABLA ENTRADAS DOS DÍAS*/
+    margin-top: 15px;
+    margin-left: 80px;
+    width: 300px;
+    height: 200px;
+    font-size: x-large;
+}
+
+.ticketsDia1 {
+    margin-top: 30px;
+    margin-left: 80px;
+}
+
+.tablaDia1 {
+    margin-top: 10px;
+    margin-left: 80px;
+    width: 300px;
+    height: 200px;
+    font-size: x-large;
+}
+
+.ticketsDia2 {
+    margin-top: 30px;
+    margin-left: 80px;
+}
+
+.tablaDia2 {
+    margin-top: 15px;
+    margin-left: 80px;
+    width: 300px;
+    height: 200px;
+    font-size: x-large;
+}
+
+.tiposTickets {
+    font-size: 15px;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+
+/* ------------------------- MERCH --------------------------- */
+
+.tituloMerch {
+    font-size: 15px;
+}
+
+/* ------------------------- CONTACTO --------------------------- */
+
+.contacto {
+    margin: 0 auto;
+    width: 80vh;
+    height: 650px;
+    padding: 20px;
+}
+
+form { /* planilla dentro de CONTACTO */
+    font-size: large;
+    margin: 0 auto;
+}
+
+/* ------------------------- FOOTER --------------------------- */
+
+footer {
+    height: 260px;
+}
+.newsletter {
+    font-size: 14px;
+}
+
+.texto-footer {
+    font-size: medium;
+}
+
+.btn-outline-dark {
+    margin-left: 8%;
+}
+
+.redes-sociales {
+    margin-top: -245px;
+    margin-left: 73%;
+}
+
+}
+
+/* SMARTPHONE */
+@media (min-width: 0px) and (max-width: 599px) {
+
+/* -------------------------- INICIO ------------------------- */
+
+#img { /* LOGO */
+    width: 150px;
+    height: 150px;
+    margin-top: -42px;
+    margin-left: -20px;
+}
+
+nav {
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+.nav-item {
+    font-size: 16px;
+    margin-left: -18px;
+}
+
+header {
+    height: 70px;
+}
+
+.comida {
+    width: 200px;
+    height: 140px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.textoComida {
+    color: white;
+    font-size: 12px;
+    line-height: 30px;
+    margin-top: 100px;
+    margin-left: -270px;
+}
+
+.niños {
+    margin-top: 30px;
+    margin-left: 5px;
+    width: 200px;
+    height: 140px;
+}
+
+.textoNiños {
+    color: white;
+    font-size: 12px;
+    line-height: 30px;
+    margin-top: 110px;
+    margin-right: -750px;
+}
+
+.relax {
+    width: 200px;
+    height: 140px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.textoRelax {
+    color: white;
+    font-size: 12px;
+    line-height: 30px;
+    margin-top: 90px;
+    margin-left: -260px;
+}
+
+.fondoImg1 { /* FONDO IMAGENES COMIDA Y RELAX */
+    height: 200px;
+    width: 95%;
+}
+
+.fondoImg2 { /* FONDO IMAGEN NIÑOS */
+    height: 200px;
+    margin-left: 5px;
+    width: 95%;
+}
+
+/* ------------------------- LINE UP --------------------------- */
+
+.dia1 {
+    font-weight: bold;
+    font-size: 30px;
+}
+    
+#explicito { /* CUADRO LINE UP */
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    height: 60vh;
+    width: 90%;
+}
+    
+.dia2 {
+    margin-top: 50px;
+    font-size: 30px;
+}
+    
+#principales { /* LINE UP - ARTISTAS PRINCIPALES (grids) */
+    border: solid 2px #50ff4d;
+    font-size: 25px;
+}
+    
+#secundarios { /* LINE UP - ARTISTAS SECUNDARIOS (grids) */
+    border: solid 2px #50ff4d;
+    font-size: 18px;
+}
+    
+
+/* ------------------------- ENTRADAS --------------------------- */
+
+.linkEntradas {
+    margin-top: 120px;
+    margin-left: 15px;
+    font-size: 23px;
+}
+
+.tickets { /* TICKETS 2 DÍAS */
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+table { /* TABLA ENTRADAS DOS DÍAS*/
+    margin-top: 15px;
+    margin-left: 60px;
+    width: 300px;
+    height: 200px;
+    font-size: x-large;
+}
+
+.ticketsDia1 {
+    margin-top: 30px;
+    margin-left: 60px;
+}
+
+.tablaDia1 {
+    margin-top: 10px;
+    margin-left: 60px;
+    width: 300px;
+    height: 200px;
+    font-size: x-large;
+}
+
+.ticketsDia2 {
+    margin-top: 30px;
+    margin-left: 60px;
+}
+
+.tablaDia2 {
+    margin-top: 15px;
+    margin-left: 60px;
+    width: 300px;
+    height: 200px;
+    font-size: x-large;
+}
+
+.tiposTickets {
+    font-size: 13px;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height: 20px;
+}
+
+/* ------------------------- MERCH --------------------------- */
+
+.tituloMerch {
+    font-size: 16px;
+}
+
+.subtituloMerch {
+    font-size: 14px;
+}
+
+/* ------------------------- CONTACTO --------------------------- */
+
+.contacto {
+    margin: 0 auto;
+    width: 65vh;
+    height: 105vh;
+    padding: 20px;
+}
+
+form { /* planilla dentro de CONTACTO */
+    font-size: 16px;
+    margin: 0 auto;
+}
+
+/* ------------------------- FOOTER --------------------------- */
+
+footer {
+    height: 260px;
+    margin-top: 30px;
+}
+.newsletter {
+    font-size: 12px;
+}
+
+.texto-footer {
+    font-size: small;
+}
+
+.btn-outline-dark {
+    margin-left: -80px;
+}
+
+.redes-sociales {
+    margin-top: -245px;
+    margin-left: 71%;
+}
+
+}
+
